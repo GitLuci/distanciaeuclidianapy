@@ -1,0 +1,8 @@
+x = int(input("Qual o valor de X ? "))
+y = int(input("Qual o valor de Y ? "))
+blca = ((x*2) - (x*1))**2
+blcb = ((y*2) - (y*1))**2
+blcc = (blca + blcb) ** 2
+print("---------------------------------------------------------")
+print("A distancia entre o ponto X  e o ponto y é de: {}".format(blcc))
+print("---------------------------------------------------------")
